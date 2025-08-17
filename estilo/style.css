@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    background: gray url(../imagens/header.jpg) no-repeat center;
+    background: gray url(../imagens/headerp.jpg) no-repeat center;
     height: 300px;
     background-size: cover;
     padding: 10px;
@@ -75,7 +75,7 @@ h3{
 }
 
 div.imgc{
-    background: url(../imagens/exterior2.jpg) no-repeat center ;
+    background: url(../imagens/exterior2p.jpg) no-repeat center ;
     background-size: cover;
    padding: 10px;
     height: 300px;
@@ -97,7 +97,7 @@ div.imgc > div > p{
 
 div.imgd{
     margin-top: 20px;
-    background: url(../imagens/exterior1.jpg) no-repeat center right;
+    background: url(../imagens/exterior1p.jpg) no-repeat center right;
      background-size: cover;
    padding: 10px;
     height: 300px;
@@ -119,7 +119,7 @@ div.imgd > div > p{
 
 div.imge{
     margin-top: 20px;
-    background: url(../imagens/farol.jpg) no-repeat center bottom;
+    background: url(../imagens/farolp.jpg) no-repeat center bottom;
      background-size: cover;
    padding: 10px;
     height: 300px;
@@ -141,7 +141,7 @@ div.imge > div > p{
 
 div.imgf{
     margin-top: 20px;
-    background: url(../imagens/interior.jpg) no-repeat center bottom;
+    background: url(../imagens/interiorp.jpg) no-repeat center bottom;
      background-size: cover;
    padding: 10px;
     height: 300px;
@@ -163,7 +163,7 @@ div.imgf > div > p{
 
 div.imgg{
     margin-top: 20px;
-    background: url(../imagens/roda2.jpg) no-repeat center;
+    background: url(../imagens/roda2p.jpg) no-repeat center;
      background-size: cover;
    padding: 10px;
     height: 300px;
