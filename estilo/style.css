@@ -80,7 +80,6 @@ div.imgc{
    padding: 10px;
     height: 300px;
     width: 350px;
-    background-attachment: fixed;
 }
 
 div.imgc > div{
@@ -124,7 +123,6 @@ div.imge{
    padding: 10px;
     height: 300px;
     width: 350px;
-    background-attachment: fixed;
 }
 
 div.imge > div{
@@ -167,9 +165,7 @@ div.imgg{
      background-size: cover;
    padding: 10px;
     height: 300px;
-    width: 350px;
-    background-attachment: fixed;
-}
+    width: 350px;}
 
 div.imgg > div{
     background-color: #00000071;
