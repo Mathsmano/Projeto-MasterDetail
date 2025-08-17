@@ -65,21 +65,29 @@ section#sec2{
     padding: 10px;
 }
 
+h2{
+    font-size: 1.8em;
+}
+
 h3{
     padding: 10px;
+    font-size: 1.5em;
 }
 
 div.imgc{
-    background: url(../imagens/exterior2p.jpg) no-repeat ;
-    background-size:contain;
+    background: url(../imagens/exterior2.jpg) no-repeat center ;
+    background-size: cover;
    padding: 10px;
     height: 300px;
     width: 400px;
+    background-attachment: fixed;
 }
 
 div.imgc > div{
-    background-color: #00000084;
-    height: 250px;
+    background-color: #00000071;
+    height: 180px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 3px;
 }
 
 div.imgc > div > p{
@@ -87,7 +95,119 @@ div.imgc > div > p{
     font-size: 1.3em;
 }
 
-/**fazer efeito paralax**/
+div.imgd{
+    margin-top: 20px;
+    background: url(../imagens/exterior1.jpg) no-repeat center right;
+     background-size: cover;
+   padding: 10px;
+    height: 300px;
+    width: 400px;
+    background-attachment: fixed;
+}
+
+div.imgd > div{
+    background-color: #00000071;
+    height: 180px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 3px;
+}
+
+div.imgd > div > p{
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+div.imge{
+    margin-top: 20px;
+    background: url(../imagens/farol.jpg) no-repeat center bottom;
+     background-size: cover;
+   padding: 10px;
+    height: 300px;
+    width: 400px;
+    background-attachment: fixed;
+}
+
+div.imge > div{
+    background-color: #00000071;
+    height: 180px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 3px;
+}
+
+div.imge > div > p{
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+div.imgf{
+    margin-top: 20px;
+    background: url(../imagens/interior.jpg) no-repeat center bottom;
+     background-size: cover;
+   padding: 10px;
+    height: 300px;
+    width: 400px;
+    background-attachment: fixed;
+}
+
+div.imgf > div{
+    background-color: #00000071;
+    height: 290px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 3px;
+}
+
+div.imgf > div > p{
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+div.imgg{
+    margin-top: 20px;
+    background: url(../imagens/roda2.jpg) no-repeat center;
+     background-size: cover;
+   padding: 10px;
+    height: 300px;
+    width: 400px;
+    background-attachment: fixed;
+}
+
+div.imgg > div{
+    background-color: #00000071;
+    height: 220px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 3px;
+}
+
+div.imgg > div > p{
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+footer{
+    text-align: center;
+    background-color: #20211f;
+    height: 80px;
+}
+
+footer> a#f5{
+     background-color: rgba(79, 65, 65, 0.566);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+#f5:hover{   
+        background-color: black;
+        transition: 0.5s;
+}
+
+footer > p{
+    color: white;
+    padding: 10px;
+}
+
 
 
 
